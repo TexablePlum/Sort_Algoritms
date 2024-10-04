@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Sort_Algoritms
 {
-	public class Example : Sort_Algorithms
+	public class Bubble_Sort : Sort_Algorithms
 	{
 		public async override void Sort(List<Line> lines)
 		{
@@ -20,7 +20,7 @@ namespace Sort_Algoritms
 					lines[j + 1].Color = Color.Red;
 
 					// Odczekaj chwilę, aby zmiana koloru była widoczna
-					await Task.Delay(100);
+					await Task.Delay(50);
 					
 
 					// Porównanie dwóch sąsiednich elementów
@@ -36,7 +36,7 @@ namespace Sort_Algoritms
 					}
 					// Przywrócenie oryginalnego koloru
 					lines[j].Color = Color.White;
-					await Task.Delay(100);
+					await Task.Delay(50);
 					lines[j + 1].Color = Color.White;
 				}
 				// Jeśli wewnątrz pętli nie było zamiany, lista jest już posortowana

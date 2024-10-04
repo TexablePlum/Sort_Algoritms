@@ -68,7 +68,7 @@ namespace Sort_Algoritms
 
 			if (isEPressed && !wasEPressed)
 			{
-				sorter = new Example();
+				sorter = new Bubble_Sort();
 				sorter.Sort(container.Lines);
 			}
 
