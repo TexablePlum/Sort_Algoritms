@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Nie ignoruj folderów bin i obj w folderze Content
+!Content/bin/
+!Content/obj/
