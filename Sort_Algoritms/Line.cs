@@ -34,7 +34,7 @@ namespace Sort_Algoritms
 			this.color = color;
 
 			texture = new Texture2D(graphicsDevice, 1, 1);
-			texture.SetData(new[] { Color.White });
+			texture.SetData(new[] { color });
 		}
 
 		public void Draw()
